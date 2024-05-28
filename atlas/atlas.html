@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Atlas</title>
+        <link rel="stylesheet" href="atlas.css">
+    </head>
+    <body>
+        <div class="container">
+            <div id="img" class="left"><img src="https://tse3.mm.bing.net/th?id=OIP.dcbZAKY8yr9GucuJBDq7pQHaGM&pid=Api&P=0&h=220" width="500px"></div>
+            <div id="table" class="right">
+                <h3>ATLAS PACKERS AND MOVERS</h3>
+                <form>
+                    <table>
+                        <tr>
+                            <td colspan="2"><a href="reloc" class="a">Relocation-info</a><br>
+                            <a href="Personal" class="a">Personal-info</a><br>
+                            <a href="Get" class="a">Get a quote!</a></td>
+                        </tr>
+                        <tr>
+                            <td id="reloc" class="b" colspan="2"><b>Relocation information</b></td>
+                        </tr>
+                        <tr>
+                            <td><select id="select" required><option>Select your currently city</option>
+                            <option>Chennai</option>
+                            <option>Bangalore</option>
+                            <option>Hyderabad</option>
+                            <option>Mumbai</option></select></td>
+                            <td><input type="date" id="date"class="f" required></td>
+                        </tr>
+                        <tr>
+                            <td><label >Category</label></td>
+                            <td><input type="radio" id="home" name="Category">
+                            <label for="home">Home Relocation</label>
+                            <input type="radio" id="factory" name="Category">
+                            <label for="factory">Factory/Office Relocation</label>
+                        </tr>
+                        <tr>
+                            <td><textarea cols=50 rows=5 placeholder="From address" required></textarea></td>
+                            <td><textarea cols=65 rows=5 placeholder="to address" required></textarea></td>
+                        </tr>
+                        <tr>
+                            <td><label>Distance in km(approx)</label></td>
+                            <td><input type="range" minlength="0" maxlength="2000" id="km" required></td>
+                        </tr>
+                        <tr>
+                            <td id="Personal" colspan="2" class="b"><label><b>Personal Information</b></label></td>
+                        </tr>
+                        <tr>
+                            <td><label for="name">Customer Name</label></td>
+                            <td><input type="text" placeholder="Enter the customer name" required id="name" class="f"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="Phone">Phone Number</label></td>
+                            <td><input type="tel" placeholder="Enter the phone number" id="Phone" pattern="789" class="f" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="email">Email ID</label></td>
+                            <td><input type="email" placeholder="Enter the email id" id="email" class="f" required></td>
+                          </tr>
+                          <tr>
+                            <td id="Get" colspan="2" class="b"><label><b>Get a quote!</b></label></td>
+                          </tr>
+                          <tr>
+                            <td><label>Possible charges involved</label></td>
+                            <td><input type="checkbox" id="Pack">
+                            <label for="Pack">Packing Charges</label>
+                            <input type="checkbox" id="load">
+                            <label for="load">Loading Charges</label>
+                            <input type="checkbox" id="trans">
+                            <label for="trans">Trasportation Charges</label>
+                            <input type="checkbox" id="unl">
+                            <label for="unl">Unloading Charges</label>
+                            <input type="checkbox" id="unp">
+                            <label for="unp">Unpacking Charges</label>
+                            <input type="checkbox" id="esc">
+                            <label for="esc">Escort Charges</label>
+                            <input type="checkbox" id="oct">
+                            <label for="oct">Octroi Charges</label>
+                            </td>
+                        
+                          </tr>
+                          <tr>
+                            <td colspan="2" id="d"><label>**Quote you receive will include service tax of 12.3%</label></td>
+                          </tr>
+                        
+                    </table>
+                    <br>
+                    <br>
+                    <button><b>GET A QUOTE</b></button>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
